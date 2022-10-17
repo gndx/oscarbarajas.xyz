@@ -1,0 +1,47 @@
+{
+  "name": "oscarbarajas.xyz",
+  "version": "1.0.0",
+  "description": "A simple landingPage powered by Astro",
+  "license": "MIT",
+  "author": {
+    "name": "GNDX"
+  },
+  "contributors": [
+    {
+      "name": "Oscar Barajas @gndx",
+      "email": "oscar@gndx.dev",
+      "url": "https://gndx.dev"
+    }
+  ],
+  "keywords": [
+    "JavaScript",
+    "Astro",
+    "react",
+    "tailwindcss",
+    "typescript"
+  ],
+  "private": true,
+  "engines": {
+    "node": "16.13.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gndx/oscarbarajas.xyz.git"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "1.5.0"
+  },
+  "devDependencies": {
+    "postcss": "8.4.18",
+    "@tailwindcss/forms": "0.5.3",
+    "@astrojs/tailwind": "2.1.0",
+    "tailwindcss": "3.1.8"
+  }
+}

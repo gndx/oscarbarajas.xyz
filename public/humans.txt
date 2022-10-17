@@ -1,0 +1,11 @@
+/* TEAM */
+	Chef: Oscar Barajas Tavares
+	Contact: oscar [at] gndx.dev
+	Twitter: @gndx
+	From:Sopo, Cundinamarca, Colombia.
+
+/* SITE */
+	Last update: 2022/10/17
+	Language: Spanish
+	Doctype: Astro
+	IDE: VSCode

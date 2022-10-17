@@ -1,0 +1,108 @@
+---
+export interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <meta name="title" content="Oscar Barajas Tavares • @gndx" />
+    <meta
+      name="description"
+      content="Learning Engineer at @platzi - Microsoft MVP - Lead at Developer Circles from Meta, #JavaScript #React #Web3 #BTC #ETH - #Twitch Partner 🇲🇽 🇨🇴"
+    />
+    <link rel="canonical" href="https://oscarbarajas.xyz/" />
+
+    <link rel="icon" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/images/icon/192x192.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#fafafa" />
+    <meta name="google" content="notranslate" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/android-icon-192x192.png"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link
+      type="text/plain"
+      rel="author"
+      href="https://oscarbarajas.xyz/humans.txt"
+    />
+    <meta name="msapplication-TileColor" content="#2b5797" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://oscarbarajas.xyz/" />
+    <meta property="og:title" content="Oscar Barajas Tavares" />
+    <meta
+      property="og:description"
+      content="Learning Engineer at @platzi - Microsoft MVP - Lead at Developer Circles from Meta, #JavaScript #React #Web3 #BTC #ETH - #Twitch Partner 🇲🇽 🇨🇴"
+    />
+    <meta
+      property="og:image"
+      content="https://res.cloudinary.com/gndxdev/image/upload/w_1600,h_836,q_100/l_text:Ubuntu_92_bold:Oscar%2520Barajas%2520Tavares,co_rgb:ffe4e6,c_fit,w_1400,h_240/fl_layer_apply,g_south_west,x_100,y_180/l_text:Ubuntu_52_bold:Oscar%2520Barajas%2520%2540gndx%2520%25C2%25B7%2520gndx.dev,co_rgb:ffe4e680,c_fit,w_1400/fl_layer_apply,g_south_west,x_100,y_100/l_twitter_name:gndx/c_thumb,g_face,r_max,w_480,h_480,q_100/fl_layer_apply,w_200,g_north_west,x_100,y_100/og-base-gndx-purple_efdec6.png"
+    />
+    <meta property="fb:app_id" content="285513459106600" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Oscar Barajas Tavares" />
+    <meta
+      name="twitter:description"
+      content="Learning Engineer at @platzi - Microsoft MVP - Lead at Developer Circles from Meta, #JavaScript #React #Web3 #BTC #ETH - #Twitch Partner 🇲🇽 🇨🇴"
+    />
+    <meta
+      name="twitter:image"
+      content="https://res.cloudinary.com/gndxdev/image/upload/w_1600,h_836,q_100/l_text:Ubuntu_92_bold:Oscar%2520Barajas%2520Tavares,co_rgb:ffe4e6,c_fit,w_1400,h_240/fl_layer_apply,g_south_west,x_100,y_180/l_text:Ubuntu_52_bold:Oscar%2520Barajas%2520%2540gndx%2520%25C2%25B7%2520gndx.dev,co_rgb:ffe4e680,c_fit,w_1400/fl_layer_apply,g_south_west,x_100,y_100/l_twitter_name:gndx/c_thumb,g_face,r_max,w_480,h_480,q_100/fl_layer_apply,w_200,g_north_west,x_100,y_100/og-base-gndx-purple_efdec6.png"
+    />
+    <meta name="twitter:image:alt" content="Oscar Barajas Tavares" />
+    <meta name="twitter:site" content="@gndx" />
+    <meta name="twitter:creator" content="@gndx" />
+  </head>
+  <body class="flex h-screen bg-gray-900 text-white">
+    <section class="m-auto">
+      <slot />
+    </section>
+  </body>
+</html>

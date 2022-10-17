@@ -1,0 +1,26 @@
+---
+import SocialLinks from "../components/SocialLinks.astro";
+import Layout from "../layouts/Layout.astro";
+import "../styles/globals.css";
+---
+
+<Layout title="Oscar Barajas Tavares - @gndx">
+  <section>
+    <div class="mx-auto px-4 py-32">
+      <div class="mx-auto max-w-3xl text-center">
+        <h1
+          class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
+        >
+          Oscar Barajas Tavares
+          <span class="sm:block text-3xl">@gndx</span>
+        </h1>
+        <p class="mx-auto mt-4 max-w-xl sm:text-xl sm:leading-relaxed">
+          Learning Engineer at @platzi - Microsoft MVP - Lead at Developer
+          Circles from Meta, #JavaScript #React #Web3 #BTC #ETH - #Twitch
+          Partner 🇲🇽 🇨🇴
+        </p>
+        <SocialLinks />
+      </div>
+    </div>
+  </section>
+</Layout>
